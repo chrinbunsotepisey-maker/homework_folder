@@ -1,0 +1,152 @@
+body {
+  background-color: rbg(240, 238, 238);
+  /* background-color: red; */
+  font-family: Roboto, Arial, sans-serif;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 20px 40px;
+}
+
+.header {
+  padding: 30px 25px;
+  text-align: center;
+  background-color: rgb(74, 144, 217);
+  color: white;
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+  margin-bottom: 25px;
+}
+
+.header h1 {
+  font-size: 28px;
+  margin-bottom: 8px;
+}
+
+.header p {
+  font-size: 15px;
+}
+
+.card {
+  background-color: white;
+  border-radius: 12px;
+  padding: 20px 15px 20px 15px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
+}
+
+.card h2 {
+  font-size: 22px;
+  margin-bottom: 16px;
+}
+
+.card img {
+  border-radius: 10px;
+  padding-top: 0;
+}
+
+table {
+  width: 100%;
+  border: 1px solid rgb(233, 233, 233);
+}
+
+thead th {
+  background-color: rgb(74, 144, 217);
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+tbody td {
+  text-align: center;
+  padding: 10px;
+  border: 1px solid rgb(233, 233, 233);
+}
+
+.form{ 
+  max-width: 420px;
+  margin: 0 auto;
+} 
+
+.form-requirement {
+  margin-bottom: 14px;
+}
+
+.form-requirement label {
+  font-weight: 700;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.form-requirement label .required {
+  color: red;
+}
+
+.form-requirement input[type="text"],
+.form-requirement input[type="email"],
+.form-requirement input[type="password"],
+.form-requirement input[type="tel"],
+.form-requirement textarea,
+.form-requirement select {
+  width: 100%;
+  padding: 8px 12px;
+  border: 1px solid rgb(204, 204, 204);
+  border-radius: 8px;
+}
+
+.form-requirement textarea {
+  height: 110px;
+}
+
+.form-requirement .upload-file-input {
+  width: 100%;
+  border: 1px solid rgb(204, 204, 204);
+  border-radius: 8px;
+  padding: 6px 10px;
+}
+
+.gender-radio,
+.skill-checkbox {
+  margin-top: 4px;
+  font-size: 14px;
+}
+
+.submit-button {
+  background-color: rgb(74, 144, 217);
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+  font-family: inherit;
+  margin-right: 10px;
+}
+
+.reset-button {
+  background-color: rgb(74, 144, 217);
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+  font-family: inherit;
+}
+
+.send-button {
+  background-color: rgb(74, 144, 217);
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+  font-family: inherit;
+}
+
+.buttons {
+  margin-top: 18px;
+}

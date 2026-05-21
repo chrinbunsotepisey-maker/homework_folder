@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <title>Homework Week 3</title>
+</head>
+<body>
+  <div class="header">
+    <h1>Student Practice Webpage</h1>
+    <p>HTML + CSS Practice (Forms + Table Advanced)</p>
+  </div>
+
+  <div class="container">
+
+    <div class="card"> 
+      <h2>Image Section</h2>
+      <img src="image.jpg" alt="This is a landscape.">
+    </div>
+
+    <div class="card">
+      <h2>Advanced Table</h2>
+      <table border="1" cellpadding="5" cellspacing="0">
+        <thead>
+          <tr>
+            <th rowspan="2">Name</th>
+            <th colspan="2">Scores</th>
+            <th rowspan="2">Grade</th>
+          </tr>
+          <tr>
+            <th>Math</th>
+            <th>CS</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Alice</td>
+            <td>90</td>
+            <td>95</td>
+            <td>A</td>
+          </tr>
+          <tr>
+            <td>Bob</td>
+            <td>80</td>
+            <td>85</td>
+            <td>B</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    
+    <div class="card">
+      <div class="form">
+        <h2>Form 1: Basic Info</h2>
+        <form>
+          <div class="form-requirement">
+            <label for="name">Name <span class="required">*</span></label>
+            <input type="text" id="name" name="name" required>
+          </div>
+
+          <div class="form-requirement">
+            <label for="email">Email <span class="required">*</span></label>
+            <input type="email" id="email" name="email" required>
+          </div>
+
+          <div class="form-requirement">
+            <label for="password">Password <span class="required">*</span></label>
+            <input type="password" id="password" name="password" required>
+          </div>
+
+          <div class="form-requirement">
+            <label for="file">Upload File</label>
+            <div class="upload-file-input">
+              <input type="file" id="file" name="file">
+            </div>
+          </div>
+
+          <div class="buttons">
+            <button type="submit" class="submit-button">Submit</button>
+            <button type="reset" class="reset-button">Reset</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="form">
+        <h2>Form 2: Survey Form</h2>
+        <form>
+          <div class="form-requirement">
+            <label for="course">Choose Course <span class="required">*</span></label>
+            <select id="course" name="course" required>
+              <option value="">-- Select --</option>
+            </select>
+          </div>
+
+          <div class="form-requirement">
+            <label>Gender</label>
+            <div class="gender-radio">
+              <input type="radio" name="gender" id="male" value="male">
+              <label for="male">Male</label>
+              <input type="radio" name="gender" value="female" id="female">
+              <label for="female">Female</label>
+            </div>
+          </div>
+
+          <div class="form-requirement">
+            <label>Skills</label>
+            <div class="skill-checkbox">
+              <input type="checkbox" name="skills" value="html">
+              <label>HTML</label>
+              <input type="checkbox" name="skills" value="css">
+              <label>CSS</label>
+              <input type="checkbox" name="skills" value="js">
+              <label>JS</label>
+            </div>
+          </div>
+
+          <div class="form-requirement">
+            <label for="phone-number">Phone <span class="required">*</span></label>
+            <input type="tel" id="phone-number" name="phone-number" required>
+          </div>
+
+          <div class="form-requirement">
+            <label for="message">Message</label>
+            <textarea id="message" name="message"></textarea>
+          </div>
+
+          <div class="buttons">
+            <button type="submit" class="send-button">Send</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
