@@ -43,8 +43,25 @@ body {
 }
 
 .card img {
-  border-radius: 10px;
   padding-top: 0;
+}
+
+.image-rectangle {
+  border-radius: 10px;
+}
+
+.image-circle {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.image-oval {
+  width: 250px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 50%;
 }
 
 table {
